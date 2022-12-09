@@ -1,0 +1,122 @@
+{
+	"default" : "pixieDust",
+	"spawnTypes" : ["point", "circle", "rect", "burst", "ring"],
+	"images" : {
+		"particle" : "assets/images/particle.png",
+		"smokeparticle" : "assets/images/smokeparticle.png",
+		"HardRain" : "assets/images/HardRain.png",
+		"Bubbles50px" : "assets/images/Bubbles50px.png",
+		"Bubbles99px" : "assets/images/Bubbles99px.png",
+		"CartoonSmoke" : "assets/images/CartoonSmoke.png",
+		"Fire" : "assets/images/Fire.png",
+		"HardCircle" : "assets/images/HardCircle.png",
+		"Pixel25px" : "assets/images/Pixel25px.png",
+		"Pixel50px" : "assets/images/Pixel50px.png",
+		"Pixel100px" : "assets/images/Pixel100px.png",
+		"Snow50px" : "assets/images/Snow50px.png",
+		"Snow100px" : "assets/images/Snow100px.png",
+		"Sparks" : "assets/images/Sparks.png"
+	},
+	"emitters" : [
+		{
+			"id" : "trail",
+			"config" : "assets/config/trail.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "flame",
+			"config" : "assets/config/flame.json",
+			"images" : ["particle", "Fire"]
+		},
+		{
+			"id" : "gas",
+			"config" : "assets/config/gas.json",
+			"images" : ["smokeparticle", "particle"]
+		},
+		{
+			"id" : "smoke",
+			"config" : "assets/config/smoke.json",
+			"images" : ["smokeparticle"]
+		},
+		{
+			"id" : "explosion",
+			"config" : "assets/config/explosion.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "explosion2",
+			"config" : "assets/config/explosion2.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "explosion3",
+			"config" : "assets/config/explosion3.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "megamanDeath",
+			"config" : "assets/config/megamanDeath.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "pixieDust",
+			"config" : "assets/config/pixieDust.json",
+			"images" : ["particle"]
+		},
+		{
+			"id" : "rain",
+			"config" : "assets/config/rain.json",
+			"images" : ["HardRain"]
+		},
+		{
+			"id" : "bubbles",
+			"config" : "assets/config/bubbles.json",
+			"images" : ["Bubbles99px"]
+		},
+		{
+			"id" : "bubbleSpray",
+			"config" : "assets/config/bubbleSpray.json",
+			"images" : ["Bubbles99px"]
+		},
+		{
+			"id" : "bubbleStream",
+			"config" : "assets/config/bubbleStream.json",
+			"images" : ["Bubbles99px"]
+		},
+		{
+			"id" : "bubblesVertical",
+			"config" : "assets/config/bubblesVertical.json",
+			"images" : ["Bubbles99px"]
+		},
+		{
+			"id" : "cartoonSmoke",
+			"config" : "assets/config/cartoonSmoke.json",
+			"images" : ["CartoonSmoke"]
+		},
+		{
+			"id" : "cartoonSmokeBlast",
+			"config" : "assets/config/cartoonSmokeBlast.json",
+			"images" : ["CartoonSmoke"]
+		},
+		{
+			"id" : "pixelTrail",
+			"config" : "assets/config/pixelTrail.json",
+			"images" : ["Pixel100px", "Pixel50px", "Pixel25px"]
+		},
+		{
+			"id" : "snow",
+			"config" : "assets/config/snow.json",
+			"images" : ["Snow100px"]
+		},
+		{
+			"id" : "sparks",
+			"config" : "assets/config/sparks.json",
+			"images" : ["Sparks"]
+		},
+		{
+			"id" : "fountain",
+			"config" : "assets/config/fountain.json",
+			"images" : ["Sparks"]
+		}
+	]
+}
