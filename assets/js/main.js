@@ -423,10 +423,10 @@ function() {
         };
         this.webgl = this.addDisplay("webgl", PixiDisplay, b),
             this.webgl.isWebGL ? (b.forceContext = "canvas2d", this.canvas2d = this.addDisplay("canvas2d", PixiDisplay, b)) : (this.canvas2d = this.webgl, this.webgl = null, document.getElementById("webglRenderer").disabled = !0, document.getElementById("canvas2dRenderer").checked = !0),
-            this.setRenderer(this.webgl ? "webgl" : "canvas2d"),
-            // backgroundSprite.scale.x = .1 * this.canvas2d.width,
-            // backgroundSprite.scale.y = .1 * this.canvas2d.height,
-            // this.on("resize", this.onResize)
+            this.setRenderer(this.webgl ? "webgl" : "canvas2d")
+            backgroundSprite.scale.x = .1 * this.canvas2d.width,
+            backgroundSprite.scale.y = .1 * this.canvas2d.height,
+            this.on("resize", this.onResize)
     }
     var Texture = include("PIXI.Texture"),
         Sprite = include("PIXI.Sprite"),
